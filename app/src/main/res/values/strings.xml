@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recipe Finder</string>
+    <string name="no_meal_name">No name</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="instructions">Instructions</string>
+    <string name="search_food">Enter a word…</string>
+    <string name="open_video">Open Video</string>
+</resources>
