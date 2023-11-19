@@ -1,4 +1,4 @@
-package com.example.recipefinder.core.internet_connection_observer
+package com.example.recipefinder.core.internet_connection
 
 import android.app.Application
 import android.content.Context
