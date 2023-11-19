@@ -1,4 +1,4 @@
-package com.example.recipefinder.core.internet_connection
+package com.example.recipefinder.presentation.util.internet_connection
 
 enum class Status {
     Available,

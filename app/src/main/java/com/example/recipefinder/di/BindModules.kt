@@ -1,7 +1,7 @@
 package com.example.recipefinder.di
 
-import com.example.recipefinder.core.internet_connection.ConnectivityObserver
-import com.example.recipefinder.core.internet_connection.NetworkConnectivityObserver
+import com.example.recipefinder.presentation.util.internet_connection.ConnectivityObserver
+import com.example.recipefinder.presentation.util.internet_connection.NetworkConnectivityObserver
 import com.example.recipefinder.data.repository.RecipeRepositoryImpl
 import com.example.recipefinder.domain.repository.RecipeRepository
 import dagger.Binds
@@ -24,5 +24,5 @@ abstract class BindModules {
     @Singleton
     abstract fun bindNetworkConnectivityObserver(
         networkConnectivityObserver: NetworkConnectivityObserver
-    ):ConnectivityObserver
+    ): ConnectivityObserver
 }

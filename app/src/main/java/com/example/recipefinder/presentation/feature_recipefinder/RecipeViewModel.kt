@@ -6,8 +6,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.recipefinder.core.internet_connection.ConnectivityObserver
-import com.example.recipefinder.core.internet_connection.Status
+import com.example.recipefinder.presentation.util.internet_connection.ConnectivityObserver
+import com.example.recipefinder.presentation.util.internet_connection.Status
 import com.example.recipefinder.domain.repository.RecipeRepository
 import com.example.recipefinder.domain.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel

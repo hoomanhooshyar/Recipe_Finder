@@ -1,4 +1,4 @@
-package com.example.recipefinder.core.internet_connection
+package com.example.recipefinder.presentation.util.internet_connection
 
 import android.app.Application
 import android.content.Context
@@ -13,7 +13,7 @@ import javax.inject.Inject
 
 class NetworkConnectivityObserver @Inject constructor(
       app:Application
-):ConnectivityObserver {
+): ConnectivityObserver {
     private val context = app.applicationContext
     private val connectivityManager =
         context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

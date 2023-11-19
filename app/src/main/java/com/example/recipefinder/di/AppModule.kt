@@ -5,7 +5,7 @@ import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.core.DataStoreFactory
 import androidx.datastore.core.Serializer
-import com.example.recipefinder.core.internet_connection.NetworkConnectivityObserver
+import com.example.recipefinder.presentation.util.internet_connection.NetworkConnectivityObserver
 import com.example.recipefinder.data.remote.RecipeApi
 import com.example.recipefinder.domain.util.Constants.BASE_URL
 import com.example.recipefinder.presentation.feature_login.LoginViewModel
@@ -59,7 +59,7 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideNetworkConnectivityObserve(app:Application):NetworkConnectivityObserver{
+    fun provideNetworkConnectivityObserve(app:Application): NetworkConnectivityObserver {
         return NetworkConnectivityObserver(app)
     }
 

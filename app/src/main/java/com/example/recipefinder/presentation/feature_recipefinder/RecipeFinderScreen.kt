@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.example.recipefinder.R
-import com.example.recipefinder.core.internet_connection.Status
+import com.example.recipefinder.presentation.util.internet_connection.Status
 import com.example.recipefinder.util.Screen
 
 @Composable
