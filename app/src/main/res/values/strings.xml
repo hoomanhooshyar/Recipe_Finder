@@ -5,4 +5,7 @@
     <string name="instructions">Instructions</string>
     <string name="search_food">Enter a word…</string>
     <string name="open_video">Open Video</string>
+    <string name="internet_unavailable">The Internet is Unavailable</string>
+    <string name="internet_lost">The Internet is Lost</string>
+    <string name="internet_losing">The Internet is losing</string>
 </resources>
